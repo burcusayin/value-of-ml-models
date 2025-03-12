@@ -1,6 +1,6 @@
-# rethinking-ml-models
+# Rethinking and Recomputing the Value of ML Models
 
-This repo includes **the companion code for the paper "Rethinking and Recomputing the Value of ML Models"**. We provide different notebooks to use based on your task. In order to run the value analysis on your own <model,task> pair, you should have the required csv files for your data and a ".npy" formatted file of the confidence scores of your model on validation and test sets. 
+This repo includes **the companion code for the paper "Rethinking and Recomputing the Value of Machine Learning Models"**. We provide different notebooks to use based on your task. In order to run the value analysis on your own <model,task> pair, you should have the required csv files for your data and a ".npy" formatted file of the confidence scores of your model on validation and test sets. 
 
 We provide the notebook "_create_and_save_confidence_array.ipynb_" for an example of running a simple Logistic Regression model and saving its confidence outputs as a ".npy" file. Then, you can use either "_value_analysis_binary.ipynb_" or "_value_analysis_mclass.ipynb_" notebooks based on your classification task (binary or multi-class). 
 
